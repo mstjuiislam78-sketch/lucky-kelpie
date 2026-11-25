@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurelia Executive Talent | AI, Amazon, FedEx & Waste Management Careers</title>
+  <!-- Google Fonts: Cormorant Garamond, Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            editorial: ['Cormorant Garamond', 'serif'],
+          },
+          colors: {
+            obsidian: {
+              950: '#05070C',
+              900: '#090D16',
+              800: '#111827',
+              700: '#1E293B',
+            },
+            champagne: {
+              300: '#F3E5AB',
+              400: '#E2C275',
+              500: '#C9A24B',
+              600: '#A6802E',
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    /* Luxury architectural grid & shimmer animations */
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.3); }
+    }
+    .live-indicator {
+      animation: pulseDot 2s infinite ease-in-out;
+    }
+    @keyframes slideInFeed {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .feed-item-enter {
+      animation: slideInFeed 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #F3E5AB 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-btn {
+      background: linear-gradient(135deg, #E2C275 0%, #C9A24B 100%);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .gold-btn:hover {
+      background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px -6px rgba(201, 162, 75, 0.45);
+    }
+  </style>
+</head>
+<body class="bg-[#F8F9FB] text-slate-900 antialiased selection:bg-champagne-500 selection:text-obsidian-950">
+
+  <!-- =====================================================================
+       SECTION 1: EXECUTIVE NAVIGATION HEADER
+       Includes direct "Continue to Offer" CTA to https://link.gigapub.tech/l/6j9t6mvwk
+  ====================================================================== -->
+  <header class="sticky top-0 z-50 bg-obsidian-950/95 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Brand Emblem & Wordmark -->
+        <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3.5 group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-champagne-400 to-champagne-600 p-[1px] shadow-lg">
+            <div class="w-full h-full rounded-[11px] bg-obsidian-950 flex items-center justify-center text-champagne-400 group-hover:bg-obsidian-900 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <span class="font-display font-bold text-lg tracking-tight text-white block leading-none">AURELIA</span>
+            <span class="text-[10px] font-semibold uppercase tracking-[0.22em] text-champagne-400 mt-1 block">Enterprise Placements</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-9 text-xs font-semibold uppercase tracking-widest text-slate-300">
+          <a href="#open-roles" class="hover:text-champagne-400 transition-colors">Career Divisions</a>
+          <a href="#benefits" class="hover:text-champagne-400 transition-colors">Executive Benefits</a>
+          <a href="#reviews" class="hover:text-champagne-400 transition-colors">Verified Reviews</a>
+          <a href="#live-apply" class="hover:text-champagne-400 transition-colors">Live Queue</a>
+        </nav>
+
+        <!-- Primary Header CTA -->
+        <div class="flex items-center gap-3">
+          <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="gold-btn inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-obsidian-950 text-xs font-extrabold uppercase tracking-wider shadow-md">
+            <span>Continue to Offer</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       SECTION 2: LUXURY ARCHITECTURAL HERO SECTION
+       Obsidian backdrop, editorial typography, champagne gold CTA & portrait
+  ====================================================================== -->
+  <section class="relative overflow-hidden bg-obsidian-950 text-white pt-16 pb-24 lg:pt-24 lg:pb-32 border-b border-white/10">
+    <!-- Ambient Radial Glows & Architectural Grid -->
+    <div class="absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full bg-champagne-500/10 blur-[130px] pointer-events-none"></div>
+    <div class="absolute bottom-0 right-0 w-[480px] h-[480px] rounded-full bg-emerald-500/10 blur-[130px] pointer-events-none"></div>
+    <div class="absolute inset-0 opacity-[0.07] pointer-events-none" style="background-image: linear-gradient(to right, #E2C275 1px, transparent 1px), linear-gradient(to bottom, #E2C275 1px, transparent 1px); background-size: 64px 64px;"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-12 items-center">
+        
+        <!-- Left Column: Editorial Headline & Direct Offer CTA -->
+        <div class="lg:col-span-7 space-y-8">
+          <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/[0.04] border border-champagne-400/30 text-champagne-300 text-xs font-semibold tracking-widest uppercase">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 live-indicator"></span>
+            <span>Priority Executive & Operations Allocation • 2026</span>
+          </div>
+
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-[56px] font-extrabold tracking-tight leading-[1.08]">
+            Premier Career Offers in <span class="font-editorial italic font-bold text-5xl sm:text-6xl lg:text-[64px] gold-gradient-text">AI, Amazon, FedEx</span> & <span class="text-emerald-400">Waste Management</span>
+          </h1>
+
+          <p class="text-slate-300 text-lg sm:text-xl max-w-2xl leading-relaxed font-normal">
+            Direct fast-track placement into high-compensation roles across artificial intelligence engineering, automated fulfillment, global express logistics, and environmental fleet operations.
+          </p>
+
+          <!-- Sector Architectural Badges -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+            <div class="px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/10">
+              <span class="text-[10px] uppercase tracking-widest text-champagne-400 block font-bold">Division 01</span>
+              <span class="text-xs font-semibold text-white mt-0.5 block">AI Jobs & Data</span>
+            </div>
+            <div class="px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/10">
+              <span class="text-[10px] uppercase tracking-widest text-champagne-400 block font-bold">Division 02</span>
+              <span class="text-xs font-semibold text-white mt-0.5 block">Amazon Ops</span>
+            </div>
+            <div class="px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/10">
+              <span class="text-[10px] uppercase tracking-widest text-champagne-400 block font-bold">Division 03</span>
+              <span class="text-xs font-semibold text-white mt-0.5 block">FedEx Logistics</span>
+            </div>
+            <div class="px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/10">
+              <span class="text-[10px] uppercase tracking-widest text-champagne-400 block font-bold">Division 04</span>
+              <span class="text-xs font-semibold text-white mt-0.5 block">Waste Management</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="gold-btn inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-obsidian-950 font-extrabold text-sm uppercase tracking-wider">
+              <span>Continue to Offer</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+              </svg>
+            </a>
+            <a href="#open-roles" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-white/[0.04] hover:bg-white/[0.09] border border-white/15 text-white font-semibold text-sm tracking-wide transition-all">
+              <span>Inspect Compensation Tiers</span>
+            </a>
+          </div>
+
+          <!-- Key Executive Metrics -->
+          <div class="grid grid-cols-3 gap-6 pt-7 border-t border-white/10">
+            <div>
+              <p class="font-display text-2xl sm:text-3xl font-extrabold text-white">14,800+</p>
+              <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Verified Openings</p>
+            </div>
+            <div>
+              <p class="font-display text-2xl sm:text-3xl font-extrabold text-champagne-400">48 Hours</p>
+              <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Offer Turnaround</p>
+            </div>
+            <div>
+              <p class="font-display text-2xl sm:text-3xl font-extrabold text-emerald-400">4.94 / 5.0</p>
+              <p class="text-xs text-slate-400 uppercase tracking-wider mt-1">Candidate Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Framed Executive Portrait with Glassmorphism Overlay -->
+        <div class="lg:col-span-5">
+          <div class="relative rounded-2xl p-2 bg-gradient-to-b from-champagne-400/30 via-white/10 to-transparent shadow-2xl">
+            <div class="relative rounded-xl overflow-hidden bg-obsidian-900">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=85"
+                onerror="this.src='https://placehold.co/800x950/090D16/E2C275?text=Executive+Placements'"
+                alt="Enterprise talent director reviewing priority placement offers"
+                class="w-full h-[460px] sm:h-[520px] object-cover object-center"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/30 to-transparent"></div>
+              
+              <!-- Glassmorphism Verification Card inside Hero Image -->
+              <div class="absolute bottom-5 left-5 right-5 p-5 rounded-xl bg-obsidian-950/85 backdrop-blur-xl border border-champagne-400/30 shadow-2xl">
+                <div class="flex items-center justify-between gap-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="w-11 h-11 rounded-xl bg-emerald-500/15 border border-emerald-400/30 text-emerald-400 flex items-center justify-center shrink-0">
+                      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-champagne-400">Direct Employer Access</p>
+                      <p class="text-sm font-bold text-white mt-0.5">AI Jobs • Amazon • FedEx • Waste Management</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="mt-4 w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-white/10 hover:bg-champagne-500 hover:text-obsidian-950 text-champagne-300 text-xs font-extrabold uppercase tracking-wider transition-all">
+                  <span>Continue to Offer</span>
+                  <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 3: FEATURED EMPLOYERS & JOB OPENINGS GRID
+       Bespoke cards for AI Jobs, Amazon, FedEx, and Waste Management with "Continue to Offer"
+  ====================================================================== -->
+  <section id="open-roles" class="py-24 lg:py-32 bg-[#F8F9FB]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+        <div class="max-w-2xl">
+          <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-champagne-600">Curated Career Divisions</span>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-[42px] font-extrabold text-obsidian-950 mt-2 tracking-tight leading-tight">
+            Direct Placements Across Four Industry Titans
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-3 leading-relaxed">
+            Review verified compensation benchmarks, shift structures, and select <span class="font-semibold text-obsidian-900">Continue to Offer</span> to claim your priority onboarding slot.
+          </p>
+        </div>
+        <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-obsidian-950 hover:bg-obsidian-800 text-champagne-300 border border-champagne-500/30 text-xs font-extrabold uppercase tracking-wider shadow-lg transition-all self-start md:self-auto">
+          <span>Continue to Offer Directory</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- 4-Card Architectural Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+
+        <!-- CARD 1: AI JOBS -->
+        <article class="group bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-sm hover:shadow-2xl hover:border-champagne-500/50 transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden bg-obsidian-950">
+            <img
+              src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=85"
+              onerror="this.src='https://placehold.co/900x500/090D16/E2C275?text=AI+Jobs+Division'"
+              alt="Artificial Intelligence engineer working on neural network models"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex items-center gap-2">
+              <span class="px-3.5 py-1 rounded-lg bg-obsidian-950/90 border border-champagne-400/40 text-champagne-300 text-[11px] font-bold tracking-widest uppercase">AI Jobs Division</span>
+              <span class="px-3 py-1 rounded-lg bg-emerald-950/90 border border-emerald-400/30 text-emerald-300 text-[11px] font-semibold">Remote & Hybrid</span>
+            </div>
+            <div class="absolute bottom-4 left-5 right-5 flex items-center justify-between text-white">
+              <span class="text-xs font-semibold tracking-wider uppercase text-slate-200">Tier-1 Technology Track</span>
+              <span class="text-xs font-bold text-champagne-300">3,420 Openings</span>
+            </div>
+          </div>
+          <div class="p-8 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-2xl font-extrabold text-obsidian-950 tracking-tight">AI Engineering, Data & Model Training</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mt-3 mb-6">
+                Collaborate with frontier artificial intelligence laboratories on LLM evaluation pipelines, RLHF alignment, prompt architecture, and machine learning infrastructure.
+              </p>
+              <div class="grid grid-cols-2 gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/70 mb-7">
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Annual Compensation</span>
+                  <span class="font-display font-extrabold text-obsidian-950 text-base mt-0.5 block">$95,000 – $185,000</span>
+                </div>
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Onboarding Speed</span>
+                  <span class="font-display font-extrabold text-emerald-700 text-base mt-0.5 block">48-Hour Fast Track</span>
+                </div>
+              </div>
+            </div>
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-obsidian-950 hover:bg-champagne-500 text-white hover:text-obsidian-950 font-extrabold text-xs uppercase tracking-widest transition-all shadow-md">
+              <span>Continue to Offer — AI Jobs</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 2: AMAZON JOBS -->
+        <article class="group bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-sm hover:shadow-2xl hover:border-champagne-500/50 transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden bg-obsidian-950">
+            <img
+              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+              onerror="this.src='https://placehold.co/900x500/090D16/E2C275?text=Amazon+Careers'"
+              alt="Modern automated fulfillment center and logistics operations"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex items-center gap-2">
+              <span class="px-3.5 py-1 rounded-lg bg-obsidian-950/90 border border-champagne-400/40 text-champagne-300 text-[11px] font-bold tracking-widest uppercase">Amazon Careers</span>
+              <span class="px-3 py-1 rounded-lg bg-emerald-950/90 border border-emerald-400/30 text-emerald-300 text-[11px] font-semibold">Day-1 Benefits</span>
+            </div>
+            <div class="absolute bottom-4 left-5 right-5 flex items-center justify-between text-white">
+              <span class="text-xs font-semibold tracking-wider uppercase text-slate-200">Fulfillment & Cloud Ops</span>
+              <span class="text-xs font-bold text-champagne-300">5,180 Openings</span>
+            </div>
+          </div>
+          <div class="p-8 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-2xl font-extrabold text-obsidian-950 tracking-tight">Amazon Fulfillment, Robotics & Operations</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mt-3 mb-6">
+                Immediate placements in Amazon fulfillment leadership, automated robotics maintenance, inventory control, and virtual support with sign-on bonuses and tuition coverage.
+              </p>
+              <div class="grid grid-cols-2 gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/70 mb-7">
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Hourly & Salaried</span>
+                  <span class="font-display font-extrabold text-obsidian-950 text-base mt-0.5 block">$22.50 – $36.00/hr</span>
+                </div>
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Sign-On Incentive</span>
+                  <span class="font-display font-extrabold text-emerald-700 text-base mt-0.5 block">Up to $3,000 Bonus</span>
+                </div>
+              </div>
+            </div>
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-obsidian-950 hover:bg-champagne-500 text-white hover:text-obsidian-950 font-extrabold text-xs uppercase tracking-widest transition-all shadow-md">
+              <span>Continue to Offer — Amazon</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 3: FEDEX JOBS -->
+        <article class="group bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-sm hover:shadow-2xl hover:border-champagne-500/50 transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden bg-obsidian-950">
+            <img
+              src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=85"
+              onerror="this.src='https://placehold.co/900x500/090D16/E2C275?text=FedEx+Logistics'"
+              alt="Express freight logistics and commercial delivery fleet"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex items-center gap-2">
+              <span class="px-3.5 py-1 rounded-lg bg-obsidian-950/90 border border-champagne-400/40 text-champagne-300 text-[11px] font-bold tracking-widest uppercase">FedEx Express & Ground</span>
+              <span class="px-3 py-1 rounded-lg bg-emerald-950/90 border border-emerald-400/30 text-emerald-300 text-[11px] font-semibold">All Shifts</span>
+            </div>
+            <div class="absolute bottom-4 left-5 right-5 flex items-center justify-between text-white">
+              <span class="text-xs font-semibold tracking-wider uppercase text-slate-200">Global Supply Chain</span>
+              <span class="text-xs font-bold text-champagne-300">3,640 Openings</span>
+            </div>
+          </div>
+          <div class="p-8 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-2xl font-extrabold text-obsidian-950 tracking-tight">FedEx Courier, Aviation Hub & Freight</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mt-3 mb-6">
+                Secure a long-term logistics career with FedEx as an express courier, ramp transport specialist, package handler, or regional fleet dispatch coordinator.
+              </p>
+              <div class="grid grid-cols-2 gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/70 mb-7">
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Compensation Rate</span>
+                  <span class="font-display font-extrabold text-obsidian-950 text-base mt-0.5 block">$23.00 – $37.50/hr</span>
+                </div>
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Retirement Plan</span>
+                  <span class="font-display font-extrabold text-emerald-700 text-base mt-0.5 block">8% 401(k) Match</span>
+                </div>
+              </div>
+            </div>
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-obsidian-950 hover:bg-champagne-500 text-white hover:text-obsidian-950 font-extrabold text-xs uppercase tracking-widest transition-all shadow-md">
+              <span>Continue to Offer — FedEx</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 4: WASTE MANAGEMENT JOBS -->
+        <article class="group bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-sm hover:shadow-2xl hover:border-champagne-500/50 transition-all duration-300 flex flex-col">
+          <div class="relative h-64 overflow-hidden bg-obsidian-950">
+            <img
+              src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=85"
+              onerror="this.src='https://placehold.co/900x500/090D16/E2C275?text=Waste+Management'"
+              alt="Environmental sustainability and modern fleet operations"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-4 left-4 flex items-center gap-2">
+              <span class="px-3.5 py-1 rounded-lg bg-obsidian-950/90 border border-champagne-400/40 text-champagne-300 text-[11px] font-bold tracking-widest uppercase">Waste Management (WM)</span>
+              <span class="px-3 py-1 rounded-lg bg-emerald-950/90 border border-emerald-400/30 text-emerald-300 text-[11px] font-semibold">CDL & Non-CDL</span>
+            </div>
+            <div class="absolute bottom-4 left-5 right-5 flex items-center justify-between text-white">
+              <span class="text-xs font-semibold tracking-wider uppercase text-slate-200">Environmental Infrastructure</span>
+              <span class="text-xs font-bold text-champagne-300">2,560 Openings</span>
+            </div>
+          </div>
+          <div class="p-8 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-display text-2xl font-extrabold text-obsidian-950 tracking-tight">Waste Management Fleet, Diesel & Green Tech</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mt-3 mb-6">
+                Lead environmental sustainability with WM in commercial route driving, heavy diesel fleet maintenance, renewable energy plant operations, and safety compliance.
+              </p>
+              <div class="grid grid-cols-2 gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200/70 mb-7">
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Compensation Rate</span>
+                  <span class="font-display font-extrabold text-obsidian-950 text-base mt-0.5 block">$25.00 – $40.00/hr</span>
+                </div>
+                <div>
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 block">Hiring Bonus</span>
+                  <span class="font-display font-extrabold text-emerald-700 text-base mt-0.5 block">Up to $5,000 Sign-On</span>
+                </div>
+              </div>
+            </div>
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-obsidian-950 hover:bg-champagne-500 text-white hover:text-obsidian-950 font-extrabold text-xs uppercase tracking-widest transition-all shadow-md">
+              <span>Continue to Offer — Waste Management</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 4: EXECUTIVE BENEFITS & PLACEMENT ARCHITECTURE
+       Includes team imagery, luxury cards & "Continue to Offer" CTA
+  ====================================================================== -->
+  <section id="benefits" class="py-24 lg:py-32 bg-white border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 items-center">
+        
+        <!-- Left Image Column -->
+        <div class="lg:col-span-6">
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=85"
+              onerror="this.src='https://placehold.co/900x700/090D16/E2C275?text=Executive+Standards'"
+              alt="Enterprise specialists collaborating in modern architectural workspace"
+              class="w-full h-[490px] object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950/90 via-transparent to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6 bg-obsidian-950/90 backdrop-blur-xl text-white p-6 rounded-xl border border-champagne-400/30">
+              <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-champagne-400">Comprehensive Candidate Protection</p>
+              <p class="text-sm text-slate-200 mt-1.5 leading-relaxed">
+                Every placed candidate receives immediate medical, dental, vision, 401(k) matching, and paid certification across AI, Amazon, FedEx, and Waste Management.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Benefits Breakdown Column -->
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-champagne-600">Enterprise Standards</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-obsidian-950 leading-tight tracking-tight">
+            Why Top Professionals Choose Direct Executive Placement
+          </h2>
+          <p class="text-slate-600 text-base leading-relaxed">
+            We bypass third-party staffing delays by connecting vetted candidates directly with corporate onboarding teams across technology, global logistics, and environmental services.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-obsidian-950 text-champagne-400 flex items-center justify-center mb-3.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 class="font-display font-bold text-obsidian-950 text-base">48-Hour Offer Issuance</h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Accelerated digital verification delivers formal employment offers within two business days.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-obsidian-950 text-champagne-400 flex items-center justify-center mb-3.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                </svg>
+              </div>
+              <h3 class="font-display font-bold text-obsidian-950 text-base">Guaranteed Weekly Pay</h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Top-decile hourly and salaried packages with shift differentials and sign-on bonuses.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-obsidian-950 text-champagne-400 flex items-center justify-center mb-3.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342" />
+                </svg>
+              </div>
+              <h3 class="font-display font-bold text-obsidian-950 text-base">Sponsored Credentials</h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Paid AI model certification and fully sponsored Class A/B CDL licensing programs.</p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+              <div class="w-10 h-10 rounded-xl bg-obsidian-950 text-champagne-400 flex items-center justify-center mb-3.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <h3 class="font-display font-bold text-obsidian-950 text-base">Full Medical & 401(k)</h3>
+              <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Day-1 health coverage, dental, vision, and generous employer retirement matching.</p>
+            </div>
+          </div>
+
+          <div class="pt-4">
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="gold-btn inline-flex items-center gap-3 px-8 py-4 rounded-xl text-obsidian-950 font-extrabold text-xs uppercase tracking-widest shadow-lg">
+              <span>Continue to Offer</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 5: TRUSTED REVIEWS & VERIFIED EMPLOYEE TESTIMONIALS
+       Includes verified portraits, gold stars & "Continue to Offer" CTA
+  ====================================================================== -->
+  <section id="reviews" class="py-24 lg:py-32 bg-[#F8F9FB]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-champagne-600">Verified Candidate Endorsements</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-obsidian-950 mt-2 tracking-tight">
+          Trusted by 42,000+ Placed Professionals
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-3">
+          Authentic feedback from specialists and operators onboarded into AI Jobs, Amazon, FedEx, and Waste Management.
+        </p>
+      </div>
+
+      <!-- 4 Review Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Review 1: AI Jobs -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-champagne-500" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Verified</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed mb-6">
+              "My placement into a remote AI Model Evaluation role took under 48 hours. Executive-level compensation, weekly direct deposit, and seamless technical onboarding."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+              onerror="this.src='https://placehold.co/100x100/090D16/E2C275?text=DC'"
+              alt="Portrait of David Chen"
+              class="w-11 h-11 rounded-full object-cover ring-2 ring-champagne-400/40"
+            />
+            <div>
+              <p class="text-sm font-bold text-obsidian-950">David Chen</p>
+              <p class="text-xs font-semibold text-champagne-600">AI Model Evaluator • Remote</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: Amazon -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-champagne-500" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Verified</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed mb-6">
+              "Joined Amazon Operations with full Day-1 health benefits and a $3,000 sign-on bonus. Fast-tracked into a Process Lead role within my first six months."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+              onerror="this.src='https://placehold.co/100x100/090D16/E2C275?text=SR'"
+              alt="Portrait of Sarah Rodriguez"
+              class="w-11 h-11 rounded-full object-cover ring-2 ring-champagne-400/40"
+            />
+            <div>
+              <p class="text-sm font-bold text-obsidian-950">Sarah Rodriguez</p>
+              <p class="text-xs font-semibold text-champagne-600">Amazon Operations Lead • TX</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: FedEx -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-champagne-500" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Verified</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed mb-6">
+              "Direct placement with FedEx Express gave me predictable daytime routes, brand-new fleet equipment, and an unmatched 8% retirement match."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+              onerror="this.src='https://placehold.co/100x100/090D16/E2C275?text=MJ'"
+              alt="Portrait of Marcus Johnson"
+              class="w-11 h-11 rounded-full object-cover ring-2 ring-champagne-400/40"
+            />
+            <div>
+              <p class="text-sm font-bold text-obsidian-950">Marcus Johnson</p>
+              <p class="text-xs font-semibold text-champagne-600">FedEx Express Courier • GA</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 4: Waste Management -->
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-champagne-500" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Verified</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed mb-6">
+              "Waste Management sponsored my commercial driver license and delivered a $5,000 sign-on bonus. Exceptional safety standards and career stability."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+              onerror="this.src='https://placehold.co/100x100/090D16/E2C275?text=RM'"
+              alt="Portrait of Robert Miller"
+              class="w-11 h-11 rounded-full object-cover ring-2 ring-champagne-400/40"
+            />
+            <div>
+              <p class="text-sm font-bold text-obsidian-950">Robert Miller</p>
+              <p class="text-xs font-semibold text-champagne-600">WM Commercial Driver • OH</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Review Section Bottom CTA -->
+      <div class="mt-14 text-center">
+        <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl bg-obsidian-950 hover:bg-champagne-500 text-white hover:text-obsidian-950 font-extrabold text-xs uppercase tracking-widest shadow-lg transition-all">
+          <span>Continue to Offer</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 6: LIVE APPLICATION TRACKER & PRIORITY PRE-QUALIFICATION
+       Obsidian luxury layout with live stream, desk image & "Continue to Offer"
+  ====================================================================== -->
+  <section id="live-apply" class="py-24 lg:py-32 bg-obsidian-950 text-white relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-champagne-500/10 blur-[140px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+
+        <!-- Left Column: Live Application Feed + Visual Banner -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs font-bold uppercase tracking-widest">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 live-indicator"></span>
+            <span>Live Candidate Allocation Feed</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold leading-tight tracking-tight">
+            Real-Time Placements & Instant Offer Access
+          </h2>
+          <p class="text-slate-300 text-base leading-relaxed">
+            Observe live candidate submissions across AI Jobs, Amazon, FedEx, and Waste Management hubs, or register your profile to proceed directly to your offer.
+          </p>
+
+          <!-- High-Resolution Visual Header inside Live Section -->
+          <div class="relative rounded-2xl overflow-hidden border border-champagne-400/25 h-52 shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1000&q=85"
+              onerror="this.src='https://placehold.co/900x350/090D16/E2C275?text=Executive+Placement+Desk'"
+              alt="Recruitment operations desk and placement coordinators"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-r from-obsidian-950/95 via-obsidian-950/70 to-transparent flex items-center p-6">
+              <div>
+                <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-champagne-400">Live Placement Desk</p>
+                <p class="font-display text-xl font-extrabold text-white mt-1">342 Offers Issued Today</p>
+                <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-champagne-500 hover:bg-champagne-400 text-obsidian-950 text-xs font-extrabold uppercase tracking-wider transition-colors">
+                  <span>Continue to Offer</span>
+                  <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Live Feed Container -->
+          <div class="bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-2xl">
+            <div class="flex items-center justify-between pb-3.5 mb-4 border-b border-white/10">
+              <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Recent Verified Submissions</span>
+              <span class="text-xs text-emerald-400 font-semibold">Live Stream</span>
+            </div>
+            <div id="live-feed-list" class="space-y-3">
+              <!-- Populated dynamically via JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Luxury Pre-Qualification Card -->
+        <div class="lg:col-span-6">
+          <div class="bg-white text-obsidian-950 rounded-2xl p-8 sm:p-10 shadow-2xl border border-champagne-400/30">
+            <div class="mb-7">
+              <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-champagne-600">Priority Candidate Registration</span>
+              <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-obsidian-950 mt-1.5 tracking-tight">Reserve Your Offer Slot</h3>
+              <p class="text-sm text-slate-600 mt-1.5">
+                Log your details into the live queue below or click <span class="font-semibold text-obsidian-950">Continue to Offer</span> for immediate portal access.
+              </p>
+            </div>
+
+            <form id="quick-apply-form" class="space-y-4">
+              <div>
+                <label for="applicant-name" class="block text-[11px] font-bold uppercase tracking-widest text-slate-700 mb-1.5">Full Legal Name</label>
+                <input
+                  type="text"
+                  id="applicant-name"
+                  required
+                  placeholder="e.g., Jordan Taylor"
+                  class="w-full px-4 py-3.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-champagne-500 focus:border-transparent"
+                />
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="applicant-email" class="block text-[11px] font-bold uppercase tracking-widest text-slate-700 mb-1.5">Email Address</label>
+                  <input
+                    type="email"
+                    id="applicant-email"
+                    required
+                    placeholder="jordan@example.com"
+                    class="w-full px-4 py-3.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-champagne-500 focus:border-transparent"
+                  />
+                </div>
+                <div>
+                  <label for="applicant-location" class="block text-[11px] font-bold uppercase tracking-widest text-slate-700 mb-1.5">City & State / Remote</label>
+                  <input
+                    type="text"
+                    id="applicant-location"
+                    required
+                    placeholder="e.g., Austin, TX or Remote"
+                    class="w-full px-4 py-3.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-champagne-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="applicant-track" class="block text-[11px] font-bold uppercase tracking-widest text-slate-700 mb-1.5">Selected Career Division</label>
+                <select
+                  id="applicant-track"
+                  class="w-full px-4 py-3.5 rounded-xl border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-champagne-500 focus:border-transparent"
+                >
+                  <option value="AI Jobs — AI Engineer / Data Specialist">AI Jobs — AI Engineer / Data Specialist</option>
+                  <option value="Amazon — Fulfillment & Operations Lead">Amazon — Fulfillment & Operations Lead</option>
+                  <option value="FedEx — Express Courier & Hub Logistics">FedEx — Express Courier & Hub Logistics</option>
+                  <option value="Waste Management — Fleet & Sustainability">Waste Management — Fleet & Sustainability</option>
+                </select>
+              </div>
+
+              <button
+                type="submit"
+                class="gold-btn w-full py-4 px-6 rounded-xl text-obsidian-950 font-extrabold text-xs uppercase tracking-widest shadow-lg flex items-center justify-center gap-2.5"
+              >
+                <span>Register & Continue to Offer</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </button>
+            </form>
+
+            <!-- Confirmation Message Box (Hidden until form submit) -->
+            <div id="form-confirmation" class="hidden mt-5 p-5 rounded-xl bg-emerald-950 text-white border border-emerald-500/40">
+              <p class="text-sm font-bold text-emerald-300">Priority Profile Logged in Live Queue</p>
+              <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+                Your application is verified. Click below to finalize your placement and view your compensation offer:
+              </p>
+              <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="gold-btn mt-3.5 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-obsidian-950 text-xs font-extrabold uppercase tracking-wider">
+                <span>Continue to Offer</span>
+                <span>&rarr;</span>
+              </a>
+            </div>
+
+            <!-- Direct Offer Link Footer inside Card -->
+            <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Skip pre-registration queue?</span>
+              <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="font-extrabold text-obsidian-950 hover:text-champagne-600 uppercase tracking-wider transition-colors">
+                Continue to Offer &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECTION 7: ARCHITECTURAL CORPORATE FOOTER
+       Includes headquarters image and "Continue to Offer" links to https://link.gigapub.tech/l/6j9t6mvwk
+  ====================================================================== -->
+  <footer class="bg-obsidian-950 text-slate-400 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-champagne-400 to-champagne-600 flex items-center justify-center text-obsidian-950 font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <span class="font-display text-lg font-extrabold text-white tracking-tight">AURELIA ENTERPRISE</span>
+          </div>
+          <p class="text-sm text-slate-400 leading-relaxed max-w-md">
+            Executive and operational talent placement network connecting qualified professionals with AI Jobs, Amazon, FedEx, and Waste Management.
+          </p>
+          <div class="pt-2">
+            <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="gold-btn inline-flex items-center gap-2 px-6 py-3 rounded-xl text-obsidian-950 text-xs font-extrabold uppercase tracking-widest">
+              <span>Continue to Offer</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="md:col-span-3 space-y-3 text-sm">
+          <p class="text-xs font-extrabold uppercase tracking-widest text-champagne-400">Direct Offer Tracks</p>
+          <ul class="space-y-2.5 text-xs font-medium">
+            <li><a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-300 transition-colors">AI Jobs & Data Engineering</a></li>
+            <li><a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-300 transition-colors">Amazon Fulfillment & Operations</a></li>
+            <li><a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-300 transition-colors">FedEx Express & Ground Logistics</a></li>
+            <li><a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-300 transition-colors">Waste Management Fleet & Green</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4 space-y-3">
+          <p class="text-xs font-extrabold uppercase tracking-widest text-champagne-400">Global Placement Headquarters</p>
+          <div class="rounded-xl overflow-hidden border border-white/10 h-32 relative">
+            <img
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+              onerror="this.src='https://placehold.co/600x200/090D16/E2C275?text=Corporate+Headquarters'"
+              alt="Corporate architectural glass tower headquarters"
+              class="w-full h-full object-cover opacity-70"
+            />
+            <div class="absolute inset-0 bg-obsidian-950/55 flex items-center px-4">
+              <p class="text-xs text-slate-200 font-medium leading-relaxed">Equal Opportunity Employer • Verified Direct Placement Network</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+        <p>&copy; 2026 Aurelia Enterprise Talent Network. All rights reserved.</p>
+        <div class="flex items-center gap-6 font-semibold">
+          <a href="https://link.gigapub.tech/l/6j9t6mvwk" target="_blank" rel="noopener noreferrer" class="text-champagne-400 hover:text-champagne-300 transition-colors">Continue to Offer</a>
+          <a href="#open-roles" class="hover:text-white transition-colors">Divisions</a>
+          <a href="#reviews" class="hover:text-white transition-colors">Verified Reviews</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       INTERACTIVE LIVE APPLICATION FEED & FORM SCRIPT
+  ====================================================================== -->
+  <script>
+    (function () {
+      const feedContainer = document.getElementById('live-feed-list');
+      const form = document.getElementById('quick-apply-form');
+      const confirmationBox = document.getElementById('form-confirmation');
+
+      const initialApplicants = [
+        { name: 'Elena Rostova', role: 'AI Jobs — Prompt & LLM Engineer', location: 'San Francisco, CA', time: 'Just now', badgeColor: 'bg-champagne-500/15 text-champagne-300 border-champagne-400/30' },
+        { name: 'Derrick Vance', role: 'Waste Management — CDL Route Driver', location: 'Columbus, OH', time: '1 min ago', badgeColor: 'bg-emerald-500/15 text-emerald-300 border-emerald-400/30' },
+        { name: 'Priya Patel', role: 'Amazon — Fulfillment Operations Lead', location: 'Dallas, TX', time: '3 mins ago', badgeColor: 'bg-amber-500/15 text-amber-300 border-amber-400/30' },
+        { name: 'Carlos Mendez', role: 'FedEx — Express Courier & Hub Ops', location: 'Atlanta, GA', time: '5 mins ago', badgeColor: 'bg-sky-500/15 text-sky-300 border-sky-400/30' }
+      ];
+
+      const liveStreamPool = [
+        { name: 'Hannah Abbott', role: 'AI Jobs — Data Annotation Specialist', location: 'Remote, US', badgeColor: 'bg-champagne-500/15 text-champagne-300 border-champagne-400/30' },
+        { name: 'Trevor Brooks', role: 'FedEx — Regional Linehaul Driver', location: 'Memphis, TN', badgeColor: 'bg-sky-500/15 text-sky-300 border-sky-400/30' },
+        { name: 'Mei-Ling Zhou', role: 'Amazon — Robotics Maintenance Tech', location: 'Seattle, WA', badgeColor: 'bg-amber-500/15 text-amber-300 border-amber-400/30' },
+        { name: 'Samuel Boateng', role: 'Waste Management — Diesel Technician', location: 'Houston, TX', badgeColor: 'bg-emerald-500/15 text-emerald-300 border-emerald-400/30' }
+      ];
+
+      function createFeedElement(item) {
+        const div = document.createElement('div');
+        div.className = 'feed-item-enter flex items-center justify-between gap-3 p-3.5 rounded-xl bg-white/[0.04] border border-white/10';
+        div.innerHTML = `
+          <div class="min-w-0">
+            <div class="flex items-center gap-2">
+              <p class="text-sm font-bold text-white truncate">${item.name}</p>
+              <span class="text-[11px] text-slate-400">• ${item.location}</span>
+            </div>
+            <span class="inline-block mt-1 px-2.5 py-0.5 rounded-md border text-[11px] font-semibold ${item.badgeColor}">
+              ${item.role}
+            </span>
+          </div>
+          <div class="text-right shrink-0">
+            <span class="text-[11px] font-bold text-emerald-400 block">Offer Ready</span>
+            <span class="text-[11px] text-slate-400">${item.time}</span>
+          </div>
+        `;
+        return div;
+      }
+
+      initialApplicants.forEach(item => {
+        feedContainer.appendChild(createFeedElement(item));
+      });
+
+      let poolIndex = 0;
+      setInterval(() => {
+        const nextCandidate = { ...liveStreamPool[poolIndex % liveStreamPool.length], time: 'Just now' };
+        poolIndex++;
+        const el = createFeedElement(nextCandidate);
+        feedContainer.insertBefore(el, feedContainer.firstChild);
+        if (feedContainer.children.length > 4) {
+          feedContainer.removeChild(feedContainer.lastChild);
+        }
+      }, 6500);
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const nameVal = document.getElementById('applicant-name').value.trim() || 'Candidate';
+        const locVal = document.getElementById('applicant-location').value.trim() || 'United States';
+        const trackVal = document.getElementById('applicant-track').value;
+
+        const newEntry = {
+          name: nameVal,
+          role: trackVal,
+          location: locVal,
+          time: 'Submitted now',
+          badgeColor: 'bg-champagne-500/15 text-champagne-300 border-champagne-400/30'
+        };
+
+        const el = createFeedElement(newEntry);
+        feedContainer.insertBefore(el, feedContainer.firstChild);
+        if (feedContainer.children.length > 4) {
+          feedContainer.removeChild(feedContainer.lastChild);
+        }
+
+        confirmationBox.classList.remove('hidden');
+        form.reset();
+      });
+    })();
+  </script>
+</body>
+</html>
